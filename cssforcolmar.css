@@ -1,0 +1,232 @@
+* {
+    margin: 0;;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:black;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* headbar */
+
+.navbar-desktop {
+    height: 4rem;
+    padding: 0 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.navbar-mobile {
+    display: none;
+}
+
+.navbar-mobile ul {
+    height: 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-mobile ul li {
+    display: inline-block;
+}
+
+
+
+#colmar-logo {
+    height: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.brand-name span {
+    color: gray;
+    font-weight: lighter;
+}
+
+
+#nav-links ul li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+#nav-last-item {
+    margin-right: 0 !important;
+}
+
+/* phase-1  */
+
+#phase-1 {
+    background-color: #d8d8d8;
+}
+
+.banner-phase-1 {
+    display: flex;
+    align-items: center;
+    padding: 2rem 1.5rem;
+}
+
+.banner {
+    margin-right: 2rem;
+    width: 60%;
+}
+
+.banner img {
+    width: 100%;
+}
+
+
+
+.aside h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.aside p {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.aside button {
+    font-size: 1.5rem;
+    color: white;
+    background-color: #4a4a4a;
+    width: 100%;
+    padding: 1rem 0;
+}
+
+/* 2nd phase */
+
+
+.container-information {
+    margin: 2rem 0;
+    display: flex;
+}
+
+.container-information-mobile {
+    display: none;
+}
+
+.figure-information {
+    padding: 0 1.5rem;
+    width: 60%;
+}
+
+.figure-information img {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.figure-information video {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.figure-information h2 {
+    margin-bottom: 1.5rem;
+}
+
+.figure-information p {
+    margin-bottom: 2rem;
+}
+
+
+.information-aside {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.card img {
+    width: 35%;
+    height: auto;
+}
+
+.card-text {
+    width: 65%;
+    margin: 0 2rem;
+}
+
+.card-text * {
+    margin: 0.5rem 0;
+}
+
+
+/* 3rd phase */
+#learning {
+    padding: 2rem 4.5rem;
+    background-color: #d8d8d8;
+}
+
+#learning h2 {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.courses {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 32px 32px;
+}
+
+.courses-mobile {
+    display: none;
+}
+
+.courses-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.courses-list h3 {
+    font-size: 1.5rem;
+    padding: 1rem 1.5rem 1rem;
+    margin: 0.5rem;
+    background-color: #d8d8d8;
+}
+
+.courses-card {
+    background-color: white;
+}
+
+.courses-card img {
+    width: 100%;
+    height: auto;
+}
+
+.courses-card-text {
+    padding: 1rem;
+}
+.courses-card-text * {
+    margin-bottom: 8px;
+}
+
+/* 4th phase */
+.thesis-heading {
+    text-align: center;
+    margin: 2rem auto;
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    margin-bottom: 2rem;
+}
+
+
